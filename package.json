@@ -1,0 +1,24 @@
+{
+  "name": "task2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run:test": "tsc && node Task_2/*.spec.js",
+    "format:code": "prettier --write \"**/*.js\"",
+    "jest:test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "@types/superagent": "^4.1.15",
+    "jest": "^28.1.3",
+    "prettier": "^2.7.1",
+    "superagent": "^8.0.0",
+    "ts-jest": "^28.0.7",
+    "typescript": "^4.7.4"
+  }
+}
