@@ -1,13 +1,12 @@
-import superagent from "superagent";
-import { urlMain } from "./const";
+import { alphabet, spaceInput } from "./helpers/constantsForFunctions";
 
-export function getRandomInt(min: number, max: number) {
+export function getRandomInt(min: number, max: number): number {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-export function randomString(length: number) {
-    let result: string = "";
-    let characters: string = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+export function getRandomString(length: number): string {
+    let result: string = spaceInput;
+    let characters: string = alphabet + alphabet.toUpperCase();
     let charactersLength: number = characters.length;
     for (let i = 0; i < length; i++) {
         result += characters.charAt(Math.floor(Math.random() * charactersLength));

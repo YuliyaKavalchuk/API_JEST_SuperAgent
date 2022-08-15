@@ -4,9 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "run:test": "tsc && node Task_2/*.spec.js",
-    "format:code": "prettier --write \"**/*.js\"",
     "jest:test": "jest"
   },
   "keywords": [],
