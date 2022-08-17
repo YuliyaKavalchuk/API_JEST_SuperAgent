@@ -1,2 +1,2 @@
-export const alphabet: string = "abcdefghijklmnopqrstuvwxyz";
-export const space_Input: string = " ";
+export const ALPHABET: string = "abcdefghijklmnopqrstuvwxyz";
+export const SPACE_INPUT: string = " ";

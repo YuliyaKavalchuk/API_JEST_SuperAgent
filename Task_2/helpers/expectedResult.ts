@@ -1,2 +1,2 @@
-export const expected_Id_5: number = 5;
-export const expected_Id_1: number = 1;
+export const EXPECTED_ID_5: number = 5;
+export const EXPECTED_ID_1: number = 1;
